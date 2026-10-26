@@ -1,0 +1,12 @@
+KYHPOSIS PROJECT - QUICK START (Windows)
+
+1. Open this extracted folder in VS Code.
+2. Open VS Code terminal (PowerShell) and run:
+   py -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+3. Start web app:
+   .\.venv\Scripts\python.exe -m streamlit run app.py
+4. Open notebooks/kyphosis_analysis.ipynb and run all cells using the .venv Python kernel.
+5. Capture app screenshots and upload folder to GitHub.
+
+IMPORTANT: Original submitted report states 84% for both models. This project uses a documented stratified 70/30 split with random_state=42; new results may differ. Never claim these reproduce the original exactly.

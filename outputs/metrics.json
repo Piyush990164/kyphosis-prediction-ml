@@ -1,0 +1,41 @@
+{
+  "split": "30% stratified test, random_state=42",
+  "results": [
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.8,
+      "precision_present": 0.5,
+      "recall_present": 0.4,
+      "f1_present": 0.4444,
+      "roc_auc": 0.65,
+      "confusion_matrix": [
+        [
+          18,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.8,
+      "precision_present": 0.5,
+      "recall_present": 0.4,
+      "f1_present": 0.4444,
+      "roc_auc": 0.775,
+      "confusion_matrix": [
+        [
+          18,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    }
+  ]
+}
